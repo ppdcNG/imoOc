@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="../src/semantic.min.css" />
+  <link rel="stylesheet" href="../src/bootstrap.css" />
+  <link rel="stylesheet" href="../src/main.css" />
+  <title>Imo Open Contracting</title>
+</head>
+
+<body>
+  <!-- Menu on Scroll -->
+  <div class="ui large top fixed hidden menu">
+    <div class="ui container">
+      <a class="item" href="../index.html">Home</a>
+      <a class="item" href="./project.html">Projects</a>
+      <a class="item">Monitored Projects</a>
+      <a class="item" href="./table.html">Table</a>
+      <a class="active item">Visualization</a>
+      <div class="right menu">
+        <div class="item">
+          <a class="ui button">Log in</a>
+        </div>
+        <div class="item">
+          <a class="ui primary button">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar Menu (on responsive screen) -->
+  <div class="ui vertical inverted sidebar menu">
+    <a class="item" href="../index.html">Home</a>
+    <a class="item" href="./project.html">Projects</a>
+    <a class="item">Monitored Projects</a>
+    <a class="item" href="./table.html">Table</a>
+
+    <a class="active item">Visualization</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+  </div>
+
+  <div class="pusher">
+    <div class="ui inverted vertical masthead center aligned bg-dark p-3" style="height: 100%">
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="item" href="../index.html">Home</a>
+          <a class="item" href="./project.html">Projects</a>
+          <a class="item">Monitored Projects</a>
+          <a class="item" href="./table.html">Table</a>
+          <a class="active item">Visualization</a>
+          <div class="right item">
+            <a class="ui inverted button">Log in</a>
+            <a class="ui inverted button">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui vertical stripe">
+      <div class="container">
+        <div class="ui form">
+
+          <div class="fields">
+            <div class="six wide field">
+              <label>MDA</label>
+              <select multiple="" class="ui dropdown">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+              </select>
+            </div>
+            <div class="six wide field">
+              <label>Procurement Year</label>
+              <select multiple="" class="ui dropdown">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+              </select>
+            </div>
+            <div class="six wide field">
+              <label>Sector</label>
+              <select multiple="" class="ui dropdown">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+              </select>
+            </div>
+          </div>
+          <div class="fields">
+            <div class="six wide field">
+              <label>Procurement Method</label>
+              <select multiple="" class="ui dropdown">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+              </select>
+            </div>
+            <div class="six wide field">
+              <label>Procurement Category</label>
+              <select multiple="" class="ui dropdown">
+                <option value="">Select Country</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+              </select>
+            </div>
+            <div class="six wide field">
+              <label for="">Search Contractor</label>
+              <select name="" id="" class="ui dropdown" multiple>
+                <option value="">Search</option>
+                <option value="p">ppdc Engineering</option>
+                <option value="j">John Doe Contractors</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <h2 class="text-center mt-5 mb-3">Visualization for Imo State</h2>
+        <hr width="100">
+        <div class="row">
+          <div class="col card m-1 shadow">
+            <div id="container1" style="height:400px;"></div>
+          </div>
+          <div class="col card m-1 shadow">
+            <div id="container2" style="height:400px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui inverted vertical footer segment">
+      <div class="ui container">
+          <div
+            class="ui stackable inverted divided equal height stackable grid"
+          >
+            <div class="five wide column">
+              <h4 class="ui inverted header">About</h4>
+              <div class="ui inverted link list">
+                <a href="#" class="item">Sitemap</a>
+                <a href="#" class="item">Contact Us</a>
+              </div>
+            </div>
+            <div class="five wide column">
+              <h4 class="ui inverted header">Services</h4>
+              <div class="ui inverted link list">
+                <a href="#" class="item">FAQs</a>
+                <a href="#" class="item">How it Works</a>
+              </div>
+            </div>
+            <div class="five wide column">
+              <h4 class="ui inverted header">Social</h4>
+              <a href="#" class="item">Twitter</a>
+              <a href="#" class="item">Facebook</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="../src/semantic.min.js" />
+  <script src="../src/components/dropdown.js"></script>
+
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script>
+    // chart
+    document.addEventListener("DOMContentLoaded", function () {
+      var myChart = Highcharts.chart("container1", {
+        chart: {
+          type: "column"
+        },
+        title: {
+          text: "Chart 1"
+        },
+        xAxis: {
+          categories: ["Apples", "Bananas", "Oranges"]
+        },
+        yAxis: {
+          title: {
+            text: "Fruit eaten"
+          }
+        },
+        series: [
+          {
+            name: "Jane",
+            data: [1, 0, 4]
+          },
+          {
+            name: "John",
+            data: [5, 7, 3]
+          }
+        ]
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var myChart = Highcharts.chart("container2", {
+        chart: {
+          type: "pie"
+        },
+        title: {
+          text: "Chart 2"
+        },
+        xAxis: {
+          categories: ["Apples", "Bananas", "Oranges"]
+        },
+        yAxis: {
+          title: {
+            text: "Fruit eaten"
+          }
+        },
+        series: [
+          {
+            name: "Jane",
+            data: [1, 0, 4]
+          },
+          {
+            name: "John",
+            data: [5, 7, 3]
+          }
+        ]
+      });
+    });
+    // chart end
+    $(function () {
+      // fix menu when passed
+      $(".masthead").visibility({
+        once: false,
+        onBottomPassed: function () {
+          $(".fixed.menu").transition("fade in");
+        },
+        onBottomPassedReverse: function () {
+          $(".fixed.menu").transition("fade out");
+        }
+      });
+
+      // create sidebar and attach to menu open
+      $(".ui.sidebar").sidebar("attach events", ".toc.item");
+      $(".ui.dropdown").dropdown();
+    });
+  </script>
+</body>
+
+</html>
